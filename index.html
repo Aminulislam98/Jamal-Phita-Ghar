@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module 4 class 3</title>
+    <style>
+      * {
+        font-family: Arial, Helvetica, sans-serif;
+        box-sizing: border-box;
+      }
+      body {
+        padding: 50px;
+      }
+      form .basic-info,
+      .pitha-info,
+      .borta-info {
+        margin: 10px 0px;
+      }
+      form .basic-info label {
+        display: block;
+        margin-top: 15px;
+      }
+      .submit-button {
+        background-color: green;
+        border: 1px solid black;
+        margin-top: 20px;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+      }
+      .submit-button:hover {
+        background-color: rgb(2, 162, 2);
+      }
+      .reset-button {
+        border: 1px solid black;
+        margin-top: 20px;
+        font-size: 16px;
+        color: white;
+        background-color: red;
+        cursor: pointer;
+      }
+      .reset-button:hover {
+        background-color: rgb(224, 5, 5);
+      }
+    </style>
+  </head>
+  <body>
+    <header></header>
+
+    <main>
+      <section>
+        <header><h2>Jamal Pitha Ghar</h2></header>
+        <form>
+          <fieldset class="basic-info">
+            <legend>Basic Info</legend>
+            <label for="name">Your Name</label>
+            <input type="text" name="" id="name" />
+            <label for="email">Your Email</label>
+            <input type="email" name="" id="email" />
+          </fieldset>
+
+          <fieldset class="pitha-info">
+            <legend>Pitha info</legend>
+            <input type="radio" name="pitha" id="vapa" />
+            <label for="vapa">Vapa</label>
+
+            <input type="radio" name="pitha" id="chitoi" />
+            <label for="chitoi">Chitoi</label>
+
+            <input type="radio" name="pitha" id="puri" />
+            <label for="puri">Puri</label>
+          </fieldset>
+
+          <fieldset class="borta-info">
+            <legend>Borta info</legend>
+            <input type="checkbox" name="Borta" id="sorisha" />
+            <label for="sorisha">Sorisha</label>
+
+            <input type="checkbox" name="Borta" id="shutki" />
+            <label for="shutki">Shutki</label>
+
+            <input type="checkbox" name="Borta" id="alu" />
+            <label for="alu">Alu Borta</label>
+          </fieldset>
+
+          <fieldset class="extra-info">
+            <legend>Extra Info</legend>
+            <textarea cols="50" rows="4" name="" id=""></textarea>
+          </fieldset>
+
+          <input class="submit-button" type="submit" value="Submit" />
+          <input class="reset-button" type="reset" value="Clear" />
+        </form>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
